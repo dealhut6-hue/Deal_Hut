@@ -2,23 +2,38 @@
   {
     "name": "Smartphone XYZ",
     "category": "Electronics",
-    "description": "Latest smartphone with amazing features and sleek design.",
+    "description": "Latest smartphone with high-resolution camera, fast processor, and sleek design.",
     "image": "https://via.placeholder.com/300x300.png?text=Smartphone+XYZ",
     "link": "https://example.com/affiliate/smartphone-xyz"
   },
   {
-    "name": "Cool T-Shirt",
-    "category": "Clothing",
-    "description": "Comfortable and stylish T-shirt for daily wear.",
-    "image": "https://via.placeholder.com/300x300.png?text=Cool+T-Shirt",
-    "link": "https://example.com/affiliate/cool-tshirt"
+    "name": "Wireless Headphones",
+    "category": "Electronics",
+    "description": "Noise-cancelling wireless headphones with long battery life.",
+    "image": "https://via.placeholder.com/300x300.png?text=Wireless+Headphones",
+    "link": "https://example.com/affiliate/wireless-headphones"
+  },
+  {
+    "name": "Yoga Mat",
+    "category": "Fitness",
+    "description": "Eco-friendly non-slip yoga mat for all types of workouts.",
+    "image": "https://via.placeholder.com/300x300.png?text=Yoga+Mat",
+    "link": "https://example.com/affiliate/yoga-mat"
   },
   {
     "name": "Coffee Maker Pro",
     "category": "Home & Kitchen",
-    "description": "Brew perfect coffee every morning with Coffee Maker Pro.",
+    "description": "Brew perfect coffee every morning with this easy-to-use coffee maker.",
     "image": "https://via.placeholder.com/300x300.png?text=Coffee+Maker+Pro",
     "link": "https://example.com/affiliate/coffee-maker-pro"
+  },
+  {
+    "name": "Cool T-Shirt",
+    "category": "Clothing",
+    "description": "Comfortable and stylish T-shirt available in multiple colors.",
+    "image": "https://via.placeholder.com/300x300.png?text=Cool+T-Shirt",
+    "link": "https://example.com/affiliate/cool-tshirt"
   }
 ]
+
 
