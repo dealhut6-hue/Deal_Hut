@@ -116,7 +116,38 @@ fetch('products.json')
   })
   .catch(err => console.log(err));
 </script>
+<script>
+fetch('products.json')
+  .then(res => res.json())
+  .then(data => {
+    const productContainer = document.getElementById('productContainer');
+    const categoryContainer = document.getElementById('categoryContainer');
+    const categories = new Set();
+
+    data.forEach(product => {
+      const card = document.createElement('div');
+      card.className = "bg-white p-4 rounded shadow hover:shadow-lg transition";
+      card.innerHTML = `
+        <img src="${product.image}" alt="${product.name}" class="w-full h-48 object-cover rounded mb-4">
+        <h4 class="text-xl font-bold text-indigo-600 mb-2">${product.name}</h4>
+        <p class="text-gray-700 mb-4">${product.description}</p>
+        <a href="${product.link}" target="_blank" class="bg-indigo-600 text-white px-4 py-2 rounded hover:bg-indigo-700 inline-block">Buy Now</a>
+      `;
+      productContainer.appendChild(card);
+      categories.add(product.category);
+    });
+
+    categories.forEach(cat => {
+      const span = document.createElement('span');
+      span.className = "bg-indigo-600 text-white px-4 py-2 rounded";
+      span.textContent = cat;
+      categoryContainer.appendChild(span);
+    });
+  })
+  .catch(err => console.log(err));
+</script>
 
 </body>
 </html>
+
 
