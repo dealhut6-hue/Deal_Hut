@@ -1,0 +1,24 @@
+[
+  {
+    "name": "Smartphone XYZ",
+    "category": "Electronics",
+    "description": "Latest smartphone with amazing features and sleek design.",
+    "image": "https://via.placeholder.com/300x300.png?text=Smartphone+XYZ",
+    "link": "https://example.com/affiliate/smartphone-xyz"
+  },
+  {
+    "name": "Cool T-Shirt",
+    "category": "Clothing",
+    "description": "Comfortable and stylish T-shirt for daily wear.",
+    "image": "https://via.placeholder.com/300x300.png?text=Cool+T-Shirt",
+    "link": "https://example.com/affiliate/cool-tshirt"
+  },
+  {
+    "name": "Coffee Maker Pro",
+    "category": "Home & Kitchen",
+    "description": "Brew perfect coffee every morning with Coffee Maker Pro.",
+    "image": "https://via.placeholder.com/300x300.png?text=Coffee+Maker+Pro",
+    "link": "https://example.com/affiliate/coffee-maker-pro"
+  }
+]
+
